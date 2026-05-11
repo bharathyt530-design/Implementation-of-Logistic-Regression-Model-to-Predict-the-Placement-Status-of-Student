@@ -61,7 +61,7 @@ print("\nClassification Report:\n",cr)
 from sklearn import metrics
 cm_display=metrics.ConfusionMatrixDisplay(confusion_matrix=confusion,display_labels=[True,False])
 cm_display.plot()
-``
+```
 
 ## Output:
 <img width="907" height="329" alt="image" src="https://github.com/user-attachments/assets/93a329ec-9dd2-4630-b303-822e582229f1" />
